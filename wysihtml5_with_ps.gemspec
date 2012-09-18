@@ -1,7 +1,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "tkh_content/version"
+require "wysihtml5_with_ps/version"
 
 # Describe your gem and declare its dependencies
 Gem::Specification.new do |s|
@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.authors     = ["Swami Atma"]
   s.email       = ["swami@TenThousandHours.eu"]
   s.homepage    = "https://github.com/allesklar/wysihtml5_with_ps"
-  s.summary     = "Temporary clone of wysihtml5. I need a published version to include in my gem so I'll use this until wysihtml5 0.4 is published."
-  s.description = "Temporary clone of wysihtml5. I need a published version to include in my gem so I'll use this until wysihtml5 0.4 is published."
+  s.summary     = "Temporary clone of wysihtml5. I need a published version supporting p tags to include in my gem so I'll use this until wysihtml5 0.4 is published."
+  s.description = "Temporary clone of wysihtml5. I need a published version supporting p tags to include in my gem so I'll use this until wysihtml5 0.4 is published."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md", "CHANGELOG.md"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile", "Makefile"]
   s.test_files = Dir["test/**/*"]
 
   # s.add_dependency "rails", "~> 3.2"
